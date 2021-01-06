@@ -158,7 +158,7 @@ for unit in attack_units:
 
 # 전군 피해
 for unit in attack_units:
-    unit.damaged(randint(5, 21))  # 공격은 랜덤으로 받음 (5~20)
+    unit.damaged(randint(5, 20))  # 공격은 랜덤으로 받음 (5~20)
     
 # 게임 종료
 game_over()
